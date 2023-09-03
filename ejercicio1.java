@@ -57,6 +57,35 @@ public class Main {
          z--;
         System.out.println(x + "\n" + z);
         //Respuesta: 4
+
         
+        //ejericio 1-g
+        if (x < y) {
+        System.out.println("####");
+        System.out.println("****");
+        } 
+        else {
+        System.out.println("&&&&");
+        }
+        //Respuesta: ####
+        // ****
+        
+        
+        //ejericio 1-h
+        if ('x' > 'y' || 66 > (int)('A')) {
+        System.out.println("#*#");
+        }
+        //Respuesta: #*#"
+        
+        
+        //ejericio 1-i
+        if (x < z) {
+        System.out.println("*");
+        } else if (x == z) {
+        System.out.println("&");
+        } else {
+        System.out.println("$");
+        }
+        //Respuesta: *
     }
 }
